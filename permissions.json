@@ -1,0 +1,118 @@
+[
+    {
+        "column": "id",
+        "desc": "Defines the rank/role ID [int, 11]"
+    },
+    {
+        "column": "rank_name",
+        "desc": "Defines the rank/role name Defaults Member, VIP, X, Support, Moderator, Super Mod and Administrator [varchar, 25]"
+    },
+    {
+        "column": "badge",
+        "desc": "Defines the badge assigned to the rank/role [varchar, 12]"
+    },
+    {
+        "column": "level",
+        "desc": "No description [int, 11]"
+    },
+    {
+        "column": "room_effect",
+        "desc": "Defines the effect ID this user should wear when they enter a room [int, 11]"
+    },
+    {
+        "column": "log_commands",
+        "desc": "Defines wether this users commands will be logged to database [enum 0,1]"
+    },
+    {
+        "column": "prefix",
+        "desc": "Defines the in-game prefix [varchar, 5]"
+    },
+    {
+        "column": "prefix_color",
+        "desc": "Defines the in-game prefix colour hex [varchar, 7]"
+    },
+    {
+        "column": "about",
+        "desc": "Toggle the ability to enable or disable the :about command [enum 0,1]"
+    },
+    {
+        "column": "cmd_alert",
+        "desc": "Toggle the ability to enable or disable the :alert command [enum 0,1]"
+    },
+    {
+        "column": "cmd_allow_trading",
+        "desc": "Toggle the ability to enable or disable in-game trading [enum 0,1]"
+    },
+    {
+        "column": "cmd_badge",
+        "desc": "Toggle the ability to enable or disable the :badge x command [enum 0,1]"
+    },
+    {
+        "column": "cmd_ban",
+        "desc": "Toggle the ability to enable or disable the :ban x command [enum 0,1]"
+    },
+    {
+        "column": "cmd_blockalert",
+        "desc": "Toggle the ability to enable or disable the :blockalerts command [enum 0,1]"
+    },
+    {
+        "column": "cmd_bots",
+        "desc": "Toggle the ability to enable or disable the :bots command [enum 0,1,2]"
+    },
+    {
+        "column": "cmd_bundle",
+        "desc": "Toggle the ability to enable or disable the :bundle x x x x command [enum 0,1]"
+    },
+    {
+        "column": "cmd_calendar",
+        "desc": "Toggle the ability to enable or disable the :calendar command [enum 0,1]"
+    },
+    {
+        "column": "cmd_changename",
+        "desc": "Toggle the ability to enable or disable the :changename (flagme) command [enum 0,1]"
+    },
+    {
+        "column": "cmd_chatcolor",
+        "desc": "Toggle the ability to enable or disable the :chatcolor command [enum 0,1]"
+    },
+    {
+        "column": "cmd_commands",
+        "desc": "Toggle the ability to enable or disable the :commands window popup [enum 0,1]"
+    },
+    {
+        "column": "cmd_connect_camera",
+        "desc": "Toggle the ability to enable or disable the :connect_camera command [enum 0,1]"
+    },
+    {
+        "column": "cmd_control",
+        "desc": "Toggle the ability to enable or disable the :control x command [enum 0,1,2]"
+    },
+    {
+        "column": "cmd_coords",
+        "desc": "Toggle the ability to enable or disable the :coords command [enum 0,1,2]"
+    },
+    {
+        "column": "cmd_credits",
+        "desc": "Toggle the ability to enable or disable the :credits x command [enum 0,1]"
+    },
+    {
+        "column": "cmd_danceall",
+        "desc": "Toggle the ability to enable or disable the :danceall x command [enum 0,1,2]"
+    },
+    {
+        "column": "cmd_diagonal",
+        "desc": "Toggle the ability to enable or disable the :diagonal command [enum 0,1,2]"
+    },
+    {
+        "column": "cmd_disconnect",
+        "desc": "Toggle the ability to enable or disable the :disconnect x command [enum 0,1]"
+    },
+    
+    
+    
+    
+    {
+        "column": "acc_anychatcolor",
+        "desc": "Ability to use any chat color"
+    }
+]
